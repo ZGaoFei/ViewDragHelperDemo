@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zgf.viewdraghelperdemo.test.DragLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestOneActivity">
+
+    <TextView
+        android:id="@+id/tv_drag_one"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="one"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tv_drag_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="two"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"/>
+
+</com.zgf.viewdraghelperdemo.test.DragLinearLayout>
