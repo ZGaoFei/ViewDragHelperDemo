@@ -9,9 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".swipeback.SwipeBackThreeActivity"></activity>
-        <activity android:name=".swipeback.SwipeBackTwoActivity" />
-        <activity android:name=".swipeback.SwipeBackFirstActivity" />
+        <activity android:name=".swipedelete.SwipeDeleteActivity"></activity>
+        <activity
+            android:name=".swipeback.SwipeBackThreeActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".swipeback.SwipeBackTwoActivity"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".swipeback.SwipeBackFirstActivity"
+            android:theme="@style/MyAppTheme" />
         <activity android:name=".TestOneActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

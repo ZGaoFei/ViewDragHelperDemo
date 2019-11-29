@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.zgf.viewdraghelperdemo.swipeback.SwipeBackFirstActivity;
+import com.zgf.viewdraghelperdemo.swipedelete.SwipeDeleteActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,6 +33,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SwipeBackFirstActivity.start(MainActivity.this);
+            }
+        });
+
+        TextView tvThree = findViewById(R.id.tv_three);
+        tvThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SwipeDeleteActivity.start(MainActivity.this);
             }
         });
     }

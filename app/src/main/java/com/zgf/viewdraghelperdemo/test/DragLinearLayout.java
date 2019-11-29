@@ -101,6 +101,13 @@ public class DragLinearLayout extends LinearLayout {
         @Override
         public boolean tryCaptureView(@NonNull View child, int pointerId) {
             Log.e(TAG, "tryCaptureView child: " + child.getId() + " pointerId: " + pointerId);
+
+            // 设置tag来区分抓取哪个view
+            String tag = (String) child.getTag();
+            Log.e(TAG, "tag: " + tag);
+            if(tag.equals("one")) {
+                return false;
+            }
             return true;
         }
 

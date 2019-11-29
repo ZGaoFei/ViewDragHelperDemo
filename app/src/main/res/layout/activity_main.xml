@@ -12,13 +12,35 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="test one" />
+        android:text="drag view test" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
 
     <TextView
         android:id="@+id/tv_two"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:text="test two" />
+        android:text="activity swipe back test" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/tv_three"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="swipe delete item" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
 
 </LinearLayout>

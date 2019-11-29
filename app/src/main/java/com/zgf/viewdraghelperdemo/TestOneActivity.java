@@ -22,6 +22,7 @@ public class TestOneActivity extends AppCompatActivity {
         setContentView(R.layout.activity_test_one);
 
         TextView tvOne = findViewById(R.id.tv_drag_one);
+        tvOne.setTag("one");
         tvOne.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -30,6 +31,7 @@ public class TestOneActivity extends AppCompatActivity {
         });
 
         TextView tvTwo = findViewById(R.id.tv_drag_two);
+        tvTwo.setTag("two");
         tvTwo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

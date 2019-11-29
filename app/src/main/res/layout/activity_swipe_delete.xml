@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".swipedelete.SwipeDeleteActivity">
+
+    <com.zgf.viewdraghelperdemo.swipedelete.SwipeDeleteLayout
+        android:id="@+id/swipe_delete_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:text="delete"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="姓名："
+                android:textColor="#cccccc"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_name_str"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小明"
+                android:textColor="#fa5b20"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </com.zgf.viewdraghelperdemo.swipedelete.SwipeDeleteLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/swipe_back_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
