@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.zgf.viewdraghelperdemo.dragmultiview.DragMultiTestActivity;
 import com.zgf.viewdraghelperdemo.swipeback.SwipeBackFirstActivity;
 import com.zgf.viewdraghelperdemo.swipedelete.SwipeDeleteActivity;
 
@@ -41,6 +42,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 SwipeDeleteActivity.start(MainActivity.this);
+            }
+        });
+
+        TextView tv_four = findViewById(R.id.tv_four);
+        tv_four.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DragTestActivity.start(MainActivity.this);
+            }
+        });
+
+        TextView tv_five = findViewById(R.id.tv_five);
+        tv_five.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DragMultiTestActivity.start(MainActivity.this);
             }
         });
     }

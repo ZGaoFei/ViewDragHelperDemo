@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zgf.viewdraghelperdemo.dragmultiview.DragMultiLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drag_multi_layout"
+    tools:context=".dragmultiview.DragMultiTestActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="under"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="above"
+        android:textColor="#ffffff" />
+
+</com.zgf.viewdraghelperdemo.dragmultiview.DragMultiLayout>

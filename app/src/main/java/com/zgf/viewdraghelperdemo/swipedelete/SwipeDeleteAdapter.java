@@ -17,6 +17,9 @@ import com.zgf.viewdraghelperdemo.R;
 import java.util.List;
 
 /**
+ * 把所有操作逻辑全都放在了adapter中处理了
+ *
+ * 功能：
  * 删除
  * 打开一个关闭其他的所有打开的（有且只有一个处于打开状态）
  * 打开或者关闭状态保存（打开或者关闭状态在滑出屏幕后再滑回来状态保留）

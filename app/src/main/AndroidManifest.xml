@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".swipedelete.SwipeDeleteActivity"></activity>
+        <activity android:name=".dragmultiview.DragMultiTestActivity"></activity>
+        <activity
+            android:name=".DragTestActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".swipedelete.SwipeDeleteActivity" />
         <activity
             android:name=".swipeback.SwipeBackThreeActivity"
             android:theme="@style/MyAppTheme" />
