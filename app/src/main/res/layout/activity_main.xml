@@ -67,4 +67,16 @@
         android:layout_height="1dp"
         android:background="#cccccc" />
 
+    <TextView
+        android:id="@+id/tv_six"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="drag multi test view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc" />
+
 </LinearLayout>

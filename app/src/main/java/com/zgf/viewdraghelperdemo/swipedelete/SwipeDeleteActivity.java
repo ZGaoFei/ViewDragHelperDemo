@@ -47,7 +47,7 @@ public class SwipeDeleteActivity extends AppCompatActivity {
 
             @Override
             public void onOpen() {
-                Log.i("SwipeDeleteActivity", "onOpen");
+                Log.i("SwipeDeleteActivity", "onOpened");
             }
 
             @Override
